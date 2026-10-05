@@ -21,11 +21,15 @@
     "bluebird": "^3.7.2",
     "deepmerge": "^4.2.2",
     "validate.js": "^0.13.1",
-    "validator": "^13.7.0"
+    "validator": "^13.15.35"
   },
   "devDependencies": {
     "chai": "^4.3.7",
     "gulp-jshint": "^2.1.0",
-    "jshint-stylish": "^2.2.1"
+    "jshint-stylish": "^2.2.1",
+    "mocha": "^10.8.2"
+  },
+  "overrides": {
+    "validator": "^13.15.35"
   }
 }
